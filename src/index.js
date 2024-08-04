@@ -160,10 +160,9 @@ async function declareWinner(character1, character2){
 }
 
 async function main() {
-    console.log(`Corrida entre ${player1.NOME} e ${player2.NOME} começando... \n`);
+    console.log(`Corrida entre os jogadores ${player1.NOME} e ${player2.NOME} começando... \n`);
 
     await playRaceEngine(player1, player2);
     await declareWinner(player1, player2);
 }
-
 main();
